@@ -38,7 +38,7 @@
                 //get parameter from gadget string
                 var myURL = gadgets.util.getUrlParameters().url;
                 var isValid = false;
-                var issue = "";
+                var issue = "000";
 
                 var qIdx = myURL.indexOf("?");
                 if(qIdx >= 0){
